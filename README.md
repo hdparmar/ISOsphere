@@ -32,3 +32,11 @@ Local Binary Patterns (LBP) are a type of visual descriptor used for texture cla
 Here is an example of a LBP histogram produced by ISOsphere:
 
 ![LBP Histogram](https://github.com/hdparmar/ISOsphere/blob/main/images/000042_lbp.png)
+
+## Usage
+To use ISOsphere, simply run the main Python script (make sure the path to your image directory is correct):
+```bash
+python3 image_histogram_and_lbp.py
+```
+
+After the program has finished execution, the histogram and lbp will be saved in the same image directory with name x_histogram.png and x_lbp.png where x is the file name.
