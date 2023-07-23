@@ -13,3 +13,22 @@ cd ISOsphere
 
 # Install the required libraries
 pip install -r requirements.txt
+```
+
+## Example: Take an Image as an example to see how the image and graphs relate. 
+
+![Example Image](https://github.com/hdparmar/ISOsphere/blob/main/images/000042.JPG)
+
+## Color Histograms
+Color histograms represent the distribution of colors in an image. They can provide insights into the color balance of the image, for example, whether an image is predominantly red, or if it has a good balance of colors. 
+
+Here is an example of a color histogram produced by ISOsphere:
+
+![Color Histogram](https://github.com/hdparmar/ISOsphere/blob/main/images/000042_histogram.png)
+
+## Local Binary Patterns (LBP)
+Local Binary Patterns (LBP) are a type of visual descriptor used for texture classification in images. They provide a measure of local spatial structure and can help identify areas of an image with particular textures.
+
+Here is an example of a LBP histogram produced by ISOsphere:
+
+![LBP Histogram](https://github.com/hdparmar/ISOsphere/blob/main/images/000042_lbp.png)
