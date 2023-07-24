@@ -23,9 +23,12 @@ pip install -r requirements.txt
 Color histograms represent the distribution of colors in an image. They can provide insights into the color balance of the image, for example, whether an image is predominantly red, or if it has a good balance of colors. 
 
 [How can reading the Histogram can give idea about Exposures](https://photographylife.com/understanding-histograms-in-photography)
+[From Capture the Atlas](https://capturetheatlas.com/how-to-read-a-histogram-in-photography/)
+
 Here is an example of a color histogram produced by ISOsphere:
 
 ![Color Histogram](https://github.com/hdparmar/ISOsphere/blob/main/images/000042_histogram.png)
+
 
 ## Local Binary Patterns (LBP)
 Local Binary Patterns (LBP) are a type of visual descriptor used for texture classification in images. They provide a measure of local spatial structure and can help identify areas of an image with particular textures.
