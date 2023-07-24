@@ -34,6 +34,15 @@ Here is an example of a LBP histogram produced by ISOsphere:
 
 ![LBP Histogram](https://github.com/hdparmar/ISOsphere/blob/main/images/000042_lbp.png)
 
+What can you learn by looking at LBP Histogram
+The histogram of the LBP image (LBP histogram) represents the distribution of local structures or textures in the image. Each bin in the histogram corresponds to a specific local binary pattern (local structure), and the height of the bin indicates the frequency of that pattern in the image.
+
+Understanding the LBP Histogram:
+
+- A histogram with most values in the low range (near 0) indicates a lot of smooth regions.
+- A histogram with values distributed across the range suggests the presence of various textures.
+- A histogram with values concentrated in the high range (near 255) implies lots of edges or transitions from dark to light areas.
+
 ## Usage
 To use ISOsphere, simply run the main Python script (make sure the path to your image directory is correct):
 ```bash
