@@ -22,6 +22,7 @@ pip install -r requirements.txt
 ## Color Histograms
 Color histograms represent the distribution of colors in an image. They can provide insights into the color balance of the image, for example, whether an image is predominantly red, or if it has a good balance of colors. 
 
+[How can reading the Histogram can give idea about Exposures](https://photographylife.com/understanding-histograms-in-photography)
 Here is an example of a color histogram produced by ISOsphere:
 
 ![Color Histogram](https://github.com/hdparmar/ISOsphere/blob/main/images/000042_histogram.png)
