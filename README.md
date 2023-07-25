@@ -53,11 +53,11 @@ They show a high response at the edges and at points where texture changes. More
 
 <p float="left">
     <figure>
-        <img src="https://github.com/hdparmar/ISOsphere/blob/main/images/analysis/000046_gabor.png" />
+        <img src="https://github.com/hdparmar/ISOsphere/blob/main/images/analysis/000046_gabor.png" width="400" />
         <figcaption> Gabor Response</figcaption>
     </figure>
     <figure>
-        <img src="https://github.com/hdparmar/ISOsphere/blob/main/images/analysis/000046_gabor_hist.png" />
+        <img src="https://github.com/hdparmar/ISOsphere/blob/main/images/analysis/000046_gabor_hist.png" width="400" />
         <figcaption> Histogram of Gabor Response</figcaption>
     </figure>
 </p>
