@@ -46,6 +46,13 @@ Understanding the LBP Histogram:
 - A histogram with values distributed across the range suggests the presence of various textures.
 - A histogram with values concentrated in the high range (near 255) implies lots of edges or transitions from dark to light areas.
 
+## Gabor Filter, Why Gabor Fitler
+Widely used in texture analysis and feature extraction
+
+They show a high response at the edges and at points where texture changes. Moreover, Gabor filters are believed to closely model the human visual system's response to features in an image, making them particularly useful in human-centric image processing tasks.
+
+![Example Gabor Filter Response]()
+
 ## Usage
 To use ISOsphere, simply run the main Python script (make sure the path to your image directory is correct):
 ```bash
