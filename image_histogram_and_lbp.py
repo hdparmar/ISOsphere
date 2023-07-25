@@ -8,6 +8,14 @@ from skimage import feature
 # Path to the directory with the images
 directory_path = 'images'
 
+# Path to the directory where the analysis and graphs will be saved
+analysis_path = 'images/analysis'
+
+# Create analysis directory if it doesn't exist
+if not os.path.exists(analysis_path):
+    os.makedirs(analysis_path)
+
+
 # Get a list of all the file names in the directory
 image_files = os.listdir(directory_path)
 
@@ -33,7 +41,7 @@ for image_file in image_files:
         plt.xlim([0, 256])
         
         # Save color histogram
-        plt.savefig(directory_path + "/" + image_file.split('.')[0] + "_histogram.png")
+        plt.savefig(analysis_path + "/" + image_file.split('.')[0] + "_histogram.png")
 
         # Convert image to grayscale for texture analysis
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -55,7 +63,7 @@ for image_file in image_files:
         plt.hist(hist, bins=n_bins)
         
         # Save LBP histogram
-        plt.savefig(directory_path + "/" + image_file.split('.')[0] + "_lbp.png")
+        plt.savefig(analysis_path + "/" + image_file.split('.')[0] + "_lbp.png")
         
         # Close all plots
         plt.close('all')
